@@ -21,7 +21,5 @@ Para isso, siga os seguintes passos:
    - **URL de notificação (Webhook)**: Essa é uma URL do seu sistema que irá então receber notificações sobre as alterações ocorridas dentro do Portal do Seller, referente a conta da empresa que autorizou a sua aplicação.
 
 Após criar sua aplicação, nós disponibilizaremos 02 informações para você:
-    - **Access Key**: esse será o identificador único de sua aplicação dentro do nosso ambiente.
-    - **Access Token**: esse será o seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
-
-    
+_ **Access Key**: esse será o identificador único de sua aplicação dentro do nosso ambiente.
+_ **Access Token**: esse será o seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
