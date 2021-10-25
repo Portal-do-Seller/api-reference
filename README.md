@@ -87,17 +87,17 @@ Ao receber nossa requisição, você deverá realizar uma requisição POST para
 }
 ```
 
-# Tabela de códigos e erros
+## Tabela de códigos e erros
 | Código          | Explicação                                                                              |
 |-----------------|-----------------------------------------------------------------------------------------|
 | 000             | Requisição realizada com sucesso                                                        |
 | 400             | Requisição mal sucedida                                                                 |
 | 001             | Dados incompletos - Algum parâmetro obrigatório está faltando ser enviado na requisição |
 
-# Recursos da API Portal do Seller
-   * [Produtos](/resources/product.md)
+## Recursos da API Portal do Seller
+   * ###[Produtos](/resources/product.md)
 
-# Ajude-nos a melhorar nossa API
+## Ajude-nos a melhorar nossa API
 Diga-nos como podemos melhorar a API. Se você tiver uma solicitação de recurso específica ou se encontrou um bug, por favor, use o GitHub Issues. Sinta-se à vontade para realizar _fork_ desses documentos e enviar uma solicitações de _pull_ com melhorias.
 
 Para falar conosco sobre a API, sinta-se à vontade para escrever para [api@portaldoseller.com.br](mailto:api@portaldoseller.com.br).
