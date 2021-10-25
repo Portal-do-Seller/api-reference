@@ -14,7 +14,7 @@ Para fazer uma solicitação de todos os pedidos do seu cliente, por exemplo, vo
 ```sh
 curl -H 'Authentication: Bearer AUTHORIZE_TOKEN ' \
   -H 'Content-Type: application/json' \
-  https://api.portaldoseller.com/v1/products
+  https://api.portaldoseller.com/v1/orders
 ```
 Onde o **AUTHORIZE_TOKEN** é o token de acesso da conta do seu cliente para a sua aplicação dentro do Portal do Seller (consulte Autenticação).
 
