@@ -6,6 +6,18 @@ A API Portal do Seller foi desenvolvida de acordo com os melhores padrões [REST
 
 As operações são feitas por requisições aos endpoints, de acordo com os verbos HTTP, com corpos de mensagem em JSON. As respostas podem ser interpretadas através do código de status HTTP. Isso permite que quaisquer aplicações consumam a API de forma simples e clara, independente da linguagem utilizada.
 
+# Fazendo uma requisição
+Todos os URLs começam com **https://api.portaldoseller.com.br/v1**. **Apenas SSL** . 
+O caminho é prefixado com a versão da API. Se mudarmos a API de maneiras incompatíveis com versões anteriores, iremos bater no marcador de versão e manter o suporte estável para os URLs antigos.
+
+Para fazer uma solicitação de todos os pedidos do seu cliente, por exemplo, você faria o seguinte no curl:
+```sh
+curl -H 'Authentication: Bearer AUTHORIZE_TOKEN ' \
+  -H 'Content-Type: application/json' \
+  https://api.portaldoseller.com/v1/products
+```
+Onde o **AUTHORIZE_TOKEN** é o token de acesso da conta do seu cliente para a sua aplicação dentro do Portal do Seller (consulte Autenticação).
+
 # Autenticação
 
 #### Obtendo sua Chave de API
@@ -51,3 +63,5 @@ Assim que seu cliente clicar em **"Autorizar conexão"**, faremos uma requisiç�
    authorize_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImV5SnBaRWx1ZEdWbmNtRjBiM0lpT2pVc0ltR
 }
 ```
+##
+Ao receber nossa requisição, voc
