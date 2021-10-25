@@ -32,7 +32,7 @@ Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que se
 1. **Link de autorização**: Você deverá passar para o seu cliente um link de autorização para que ele aceite a nossa conexão com a sua aplicação. Esse link deverá conter dois parâmetros na URL, são eles:
 
    - **appId**: o parâmetro _appId_ deverá conter o **Access Key** da sua aplicação.
-   - **redirect_url**: esse parâmetro deverá ser uma URL do seu sistema, para qual faremos uma requisição POST no ato da autorização, passando como _body_ o **companyId** (identificador do seu cliente em nosso sistema ) e também um **authorize_token** que vincula a sua aplicação com o seu cliente dentro de nosso sistema.
+   - **redirect_url**: esse parâmetro deverá ser uma URL do seu sistema preparada para receber uma requisição POST, que faremos no ato da autorização para validar a conexão.
 
 * Exemplo do Link de autorização: **https://sandboxapp.portaldoseller.com.br/apps/authorize?appId=168774&redirect_url=https%3A%2F%2Fapi.seusistema.com.br%2Fredirect**
 ##
