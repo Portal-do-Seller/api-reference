@@ -23,3 +23,6 @@ Para isso, siga os seguintes passos:
 Após criar sua aplicação, nós disponibilizaremos 02 informações para você:
 1. **Access Key**: esse será o identificador único de sua aplicação dentro do nosso ambiente.
 2. **Access Token**: esse será o seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
+
+### Autorizando sua aplicação:
+Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que seu cliente autorize a conexão entre o Portal do Seller e sua aplicação. Para isso, siga os passos:
