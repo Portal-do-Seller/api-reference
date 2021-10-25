@@ -28,7 +28,7 @@ curl -H 'Authentication: Bearer AUTHORIZE_TOKEN ' \
 Onde o **AUTHORIZE_TOKEN** é o token de acesso da conta do seu cliente para a sua aplicação dentro do Portal do Seller (consulte Autenticação).
 
 # Autenticação
-Sua aplicação possui 02 informações essenciais:
+Sua aplicação (criada em _Por onde eu começo?_) possui 02 informações essenciais:
 
 1. **Access Key**: identificador único de sua aplicação dentro do nosso ambiente.
 2. **Access Token**: seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
