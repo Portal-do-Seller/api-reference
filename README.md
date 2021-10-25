@@ -6,6 +6,15 @@ A API Portal do Seller foi desenvolvida de acordo com os melhores padrões [REST
 
 As operações são feitas por requisições aos endpoints, de acordo com os verbos HTTP, com corpos de mensagem em JSON. As respostas podem ser interpretadas através do código de status HTTP. Isso permite que quaisquer aplicações consumam a API de forma simples e clara, independente da linguagem utilizada.
 
+# Por onde eu começo?
+
+1. Acesse a nossa [_central de desenvolvedores_](https://developers.portaldoseller.com.br/) e crie sua conta como Developer,
+2. Após acessar a Central, crie sua primeira aplicação inserindo as seguintes informações:
+   - **Nome da aplicação**: nome que será público sobre a sua aplicação para todos os usuários
+   - **Nome curto**: nome curto para sua aplicação que será usado para montar a sua URL. Não coloque acentos ou caracteres especiais no _nome curto_.
+   - **Logotipo**: insira uma logotipo para sua aplicação
+   - **URL de notificação (Webhook)**: Essa é uma URL do seu sistema que irá então receber notificações sobre as alterações ocorridas dentro do Portal do Seller, referente a conta da empresa que autorizou a sua aplicação.
+
 # Fazendo uma requisição
 Todos os URLs começam com **https://api.portaldoseller.com.br/v1**. **Apenas SSL**.\
 O caminho é prefixado com a versão da API. Se mudarmos a API de maneiras incompatíveis com versões anteriores, iremos bater no marcador de versão e manter o suporte estável para os URLs antigos.
@@ -19,23 +28,10 @@ curl -H 'Authentication: Bearer AUTHORIZE_TOKEN ' \
 Onde o **AUTHORIZE_TOKEN** é o token de acesso da conta do seu cliente para a sua aplicação dentro do Portal do Seller (consulte Autenticação).
 
 # Autenticação
+Sua aplicação possui 02 informações essenciais:
 
-#### Obtendo sua Chave de API
-
-Antes de começar, você precisa obter suas chaves de API.
-Para isso, siga os seguintes passos:
-
-1. Acesse a nossa [_central de desenvolvedores_](https://developers.portaldoseller.com.br/) e faça login com seu usuário,
-2. Após acessar a Central, crie sua primeira aplicação inserindo as seguintes informações:
-   - **Nome da aplicação**: nome que será público sobre a sua aplicação para todos os usuários
-   - **Nome curto**: nome curto para sua aplicação que será usado para montar a sua URL. Não coloque acentos ou caracteres especiais no _nome curto_.
-   - **Logotipo**: insira uma logotipo para sua aplicação
-   - **URL de notificação (Webhook)**: Essa é uma URL do seu sistema que irá então receber notificações sobre as alterações ocorridas dentro do Portal do Seller, referente a conta da empresa que autorizou a sua aplicação.
-
-Após criar sua aplicação, nós disponibilizaremos 02 informações para você:
-
-1. **Access Key**: esse será o identificador único de sua aplicação dentro do nosso ambiente.
-2. **Access Token**: esse será o seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
+1. **Access Key**: identificador único de sua aplicação dentro do nosso ambiente.
+2. **Access Token**: seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
 
 ### Autorizando sua aplicação:
 
