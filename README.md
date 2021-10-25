@@ -72,6 +72,7 @@ Ao receber nossa requisição, você deverá realizar uma requisição POST para
 | companyId       | Identificador da conta do seu cliente dentro do Portal do Seller                        |
 | authorize_token | Token que vincula a sua aplicação com a conta do seu cliente dentro do Portal do Seller |
 | access_token    | Access Token único da sua aplicação                                                     |
+### body
 ```sh
 {
    companyId: 123456,
