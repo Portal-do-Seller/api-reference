@@ -21,8 +21,17 @@ Para isso, siga os seguintes passos:
    - **URL de notificação (Webhook)**: Essa é uma URL do seu sistema que irá então receber notificações sobre as alterações ocorridas dentro do Portal do Seller, referente a conta da empresa que autorizou a sua aplicação.
 
 Após criar sua aplicação, nós disponibilizaremos 02 informações para você:
+
 1. **Access Key**: esse será o identificador único de sua aplicação dentro do nosso ambiente.
 2. **Access Token**: esse será o seu token de acesso dentro do nosso ambiente. _Não compartilhe essa informação_
 
 ### Autorizando sua aplicação:
+
 Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que seu cliente autorize a conexão entre o Portal do Seller e sua aplicação. Para isso, siga os passos:
+
+1. **Link de autorização**: Você deverá passar para o seu cliente um link de autorização para que ele aceite a nossa conexão com a sua aplicação. Esse link deverá conter dois parâmetro na URL, são eles:
+
+   1. **appId**: o parâmetro _appId_ deverá conter o **Access Key** da sua aplicação.
+   2. **redirect_url**: esse parâmetro deverá ser uma URL do seu sistema, para qual faremos uma requisição POST no ato da autorização, passando como _body_ o **companyId** (identificador do seu cliente em nosso sistema ) e também um **authorize_token** que vincula a sua aplicação com o seu cliente dentro de nosso sistema.
+
+   - ## Exemplo do Link de autorização: **https://sandboxapp.portaldoseller.com.br/apps/authorize?appId=168774&redirect_url=https%3A%2F%2Fapi.seusistema.com.br%2Fredirect**
