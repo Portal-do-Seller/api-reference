@@ -36,5 +36,7 @@ Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que se
 
 * Exemplo do Link de autorização: **https://sandboxapp.portaldoseller.com.br/apps/authorize?appId=168774&redirect_url=https%3A%2F%2Fapi.seusistema.com.br%2Fredirect**
 
+
+
 Ao clicar no link, seu cliente irá efetuar o login dentro do nosso sistema e autorizará a conexão com a sua aplicação.
 ![](/imgs/app_authorize_example.png)
