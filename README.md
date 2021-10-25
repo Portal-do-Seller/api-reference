@@ -38,3 +38,11 @@ Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que se
 ##
 Ao clicar no link, seu cliente irá efetuar o login dentro do nosso sistema e autorizará a conexão com a sua aplicação.
 ![](/imgs/app_authorize_example.png)
+##
+Assim que seu cliente clicar em **"Autorizar conexão"**, faremos uma requisição POST para o parâmetro _redirect_url_ informado, passando como body as seguintes informações:
+```sh
+{
+   companyId: 123456,
+   authorize_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImV5SnBaRWx1ZEdWbmNtRjBiM0lpT2pVc0ltR
+}
+```
