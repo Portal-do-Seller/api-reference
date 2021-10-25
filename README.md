@@ -35,3 +35,5 @@ Ao obter as credenciais de sua aplicação, o próximo passo é fazer com que se
    - **redirect_url**: esse parâmetro deverá ser uma URL do seu sistema, para qual faremos uma requisição POST no ato da autorização, passando como _body_ o **companyId** (identificador do seu cliente em nosso sistema ) e também um **authorize_token** que vincula a sua aplicação com o seu cliente dentro de nosso sistema.
 
 * Exemplo do Link de autorização: **https://sandboxapp.portaldoseller.com.br/apps/authorize?appId=168774&redirect_url=https%3A%2F%2Fapi.seusistema.com.br%2Fredirect**
+
+[](/imgs/app_authorize_example.png)
