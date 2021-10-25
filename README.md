@@ -86,3 +86,10 @@ Ao receber nossa requisição, você deverá realizar uma requisição POST para
    Data: null
 }
 ```
+
+# Tabela de códigos e erros
+| Código          | Explicação                                                                              |
+|-----------------|-----------------------------------------------------------------------------------------|
+| 000             | Requisição realizada com sucesso                                                        |
+| 400             | Requisição mal sucedida                                                                 |
+| 001             | Dados incompletos - Algum parâmetro obrigatório esta faltando ser enviado na requisição |
