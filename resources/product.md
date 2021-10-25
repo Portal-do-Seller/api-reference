@@ -22,3 +22,7 @@ O objeto Produto contém as seguintes propriedades:
 | grids           | string  | Lista de objetos de [Grade do Produto](product_grid.md), que representam diferentes versões do mesmo produto  |
 | images          | string  | Lista de objetos de [Imagem do Produto](product_image.md), que representam as imagens do produto  |
 
+
+# Criando um produto
+### POST /products
+
