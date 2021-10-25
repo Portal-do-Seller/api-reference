@@ -64,4 +64,18 @@ Assim que seu cliente clicar em **"Autorizar conexão"**, faremos uma requisiç�
 }
 ```
 ##
-Ao receber nossa requisição, voc
+Ao receber nossa requisição, você deverá realizar uma requisição POST para nossa URL para validar a conexão com a sua aplicação.
+
+## POST /apps/confirm-connection
+| Parâmetro       | Explicação                                                                              |
+|-----------------|-----------------------------------------------------------------------------------------|
+| companyId       | Identificador da conta do seu cliente dentro do Portal do Seller                        |
+| authorize_token | Token que vincula a sua aplicação com a conta do seu cliente dentro do Portal do Seller |
+| access_token    | Access Token único da sua aplicação                                                     |
+```sh
+{
+   companyId: 123456,
+   authorize_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImV5SnBaRWx1ZEdWbmNtRjBiM0lpT2pVc0ltR,
+   access_token: ciOiJIUzI1NiJ9.ImV5SnBaRWx1ZEdWbmNtRjBiM0lpT2pVc0ltRasdasf1QiLCJhbGciOiJIUzI1Ni
+}
+```
