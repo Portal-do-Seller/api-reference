@@ -40,6 +40,11 @@ Ao clicar no link, seu cliente irá efetuar o login dentro do nosso sistema e au
 ![](/imgs/app_authorize_example.png)
 ##
 Assim que seu cliente clicar em **"Autorizar conexão"**, faremos uma requisição POST para o parâmetro _redirect_url_ informado, passando como body as seguintes informações:
+| Parâmetro       | Explicação                                                                              |
+|-----------------|-----------------------------------------------------------------------------------------|
+| companyId       | Identificador da conta do seu cliente dentro do Portal do Seller                        |
+| authorize_token | Token que vincula a sua aplicação com a conta do seu cliente dentro do Portal do Seller |
+|                 |                                                                                         |
 ```sh
 {
    companyId: 123456,
