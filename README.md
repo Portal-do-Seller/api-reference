@@ -95,7 +95,7 @@ Ao receber nossa requisição, você deverá realizar uma requisição POST para
 | 001             | Dados incompletos - Algum parâmetro obrigatório está faltando ser enviado na requisição |
 
 ## Recursos da API Portal do Seller
-   * ###[Produtos](/resources/product.md)
+   * ### [Produtos](/resources/product.md)
 
 ## Ajude-nos a melhorar nossa API
 Diga-nos como podemos melhorar a API. Se você tiver uma solicitação de recurso específica ou se encontrou um bug, por favor, use o GitHub Issues. Sinta-se à vontade para realizar _fork_ desses documentos e enviar uma solicitações de _pull_ com melhorias.
