@@ -16,7 +16,7 @@ Para acessar os recursos da nossa API, é necessário autenticar-se utilizando u
 
 Antes de começar a fazer requisições para a API, você precisa obter suas chaves de API. Siga os passos abaixo:
 
-1. **Acesse o Portal**: [Clique aqui](#) para acessar o portal de autenticação e faça login com seu usuário.
+1. **Acesse o Portal**: [Clique aqui](https://app.portaldoseller.com.br) para acessar o portal de autenticação e faça login com seu usuário.
 2. **Acesse Configurações**: Após o login, navegue até a área de **Configurações**.
 3. **Integrações**: Dentro de Configurações, clique em **Integrações**.
 4. **Criação da Chave de API**: Caso ainda não tenha uma chave de API, clique no botão **Criar chave de API** e siga o passo a passo para gerar sua chave.
